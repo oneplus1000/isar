@@ -27,6 +27,8 @@ android {
     defaultConfig {
         minSdkVersion 16
     }
+
+    namespace "dev.isar.isar_flutter_libs"
 }
 
 dependencies {

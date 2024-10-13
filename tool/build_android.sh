@@ -13,7 +13,6 @@ NDK=${ANDROID_NDK_HOME:-${ANDROID_NDK_ROOT:-"$ANDROID_SDK_ROOT/ndk"}}
 COMPILER_DIR="$NDK/toolchains/llvm/prebuilt/$NDK_HOST_TAG/bin"
 export PATH="$COMPILER_DIR:$PATH"
 
-echo "$COMPILER_DIR"
 
 export CC_i686_linux_android=$COMPILER_DIR/i686-linux-android21-clang
 export AR_i686_linux_android=$COMPILER_DIR/llvm-ar
